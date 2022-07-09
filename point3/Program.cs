@@ -1,0 +1,10 @@
+﻿Console.Write("Вевдите порядковый номер дня недели (1 - 7): ");
+int dayNum = int.Parse(Console.ReadLine());
+if (dayNum == 1) Console.WriteLine("Это Понедельник!");
+if (dayNum == 2) Console.WriteLine("Это Вторник!");
+if (dayNum == 3) Console.WriteLine("Это Среда!");
+if (dayNum == 4) Console.WriteLine("Это Четверг!");
+if (dayNum == 5) Console.WriteLine("Это Пятница!");
+if (dayNum == 6) Console.WriteLine("Это Суббота!");
+if (dayNum == 7) Console.WriteLine("Это Воскресенье!");
+if (dayNum < 1 || dayNum > 7) Console.WriteLine("Нет такого дня!");
