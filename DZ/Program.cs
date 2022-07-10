@@ -1,4 +1,6 @@
-﻿void point2()
+﻿// Для запуска конкретной задачи раскомментируйте соответствующий point (строки 65 - 68) внизу!
+
+void point2()
 {
     Console.WriteLine("Введите число 'a':");
     int a = Convert.ToInt32(Console.ReadLine());
