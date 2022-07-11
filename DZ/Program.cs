@@ -1,6 +1,6 @@
 ﻿// Для запуска конкретной задачи раскомментируйте соответствующий point (строки 65 - 68) внизу!
 
-void point2()
+void Point2()
 {
     Console.WriteLine("Введите число 'a':");
     int a = Convert.ToInt32(Console.ReadLine());
@@ -10,7 +10,7 @@ void point2()
     else Console.WriteLine(b + " больше " + a);
 }
 
-void point4()
+void Point4()
 {
     Console.WriteLine("Введите число 'a':");
     int a = Convert.ToInt32(Console.ReadLine());
@@ -20,11 +20,11 @@ void point4()
     int c = Convert.ToInt32(Console.ReadLine());
     int max = a;
     if (b > max) max = b;
-    else if (c > max) max = c;
+    if (c > max) max = c;
     Console.WriteLine("Максимальное число = " + max);
 }
 
-void point6()
+void Point6()
 {
     Console.WriteLine("Введите целое число:");
     int num = Convert.ToInt32(Console.ReadLine());
@@ -32,7 +32,7 @@ void point6()
     else Console.WriteLine("Число " + num + " четное");
 }
 
-void point8()
+void Point8()
 {
     Console.WriteLine("Введите целое число:");
     int num = Convert.ToInt32(Console.ReadLine());
@@ -62,7 +62,7 @@ void point8()
 
 
 
-//point2();
-//point4();
-//point6();
-//point8();
+//Point2();
+//Point4();
+//Point6();
+//Point8();
